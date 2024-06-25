@@ -1,0 +1,29 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.grid {
+    background: blue;
+    width: 25%;
+    padding-bottom: 25%;
+    box-sizing: border-box;
+    border: 1px black;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    background: red;
+    border: 1px solid blue;
+    width: 30%;
+    padding-bottom: 30%;
+}
