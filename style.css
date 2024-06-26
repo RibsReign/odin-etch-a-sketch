@@ -13,17 +13,17 @@ body {
 
 .grid {
     background: blue;
-    width: 25%;
-    padding-bottom: 25%;
+    width: 6.25%;
+    height: 6.25%;
+    border: 0.01mm solid rgba(211, 220, 50, .6);
     box-sizing: border-box;
-    border: 1px black;
 }
 
 #container {
     display: flex;
     flex-wrap: wrap;
-    background: red;
-    border: 1px solid blue;
-    width: 30%;
-    padding-bottom: 30%;
+    /*     background: red;
+    border: 1px solid blue; */
+    width: 400px;
+    height: 400px;
 }
