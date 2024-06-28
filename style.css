@@ -8,15 +8,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: black;
+    background: rgb(53, 52, 52);
 }
 
 .grid {
     background: blue;
-    width: 6.25%;
-    height: 6.25%;
-    border: 0.01mm solid rgba(211, 220, 50, .6);
     box-sizing: border-box;
+    flex: 1 0 calc(100% / var(--grid-count));
 }
 
 .grid:hover {
@@ -26,8 +24,6 @@ body {
 #container {
     display: flex;
     flex-wrap: wrap;
-    /*     background: red;
-    border: 1px solid blue; */
     width: 400px;
     height: 400px;
 }
