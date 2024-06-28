@@ -22,6 +22,7 @@ function colorOnStart(event) {
 }
 function mouseClick(event) {
     isDrawing = !isDrawing;
+    colorOnClick(event);
 }
 function mouseLift(event) {
     isDrawing = false;
