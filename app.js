@@ -12,7 +12,7 @@ let gridCount = 16;
 let isDrawing = false;
 function colorOnHighlight(event) {
     if (!isDrawing) {
-        event.target.style.backgroundColor = "lightgrey";
+        event.target.style.backgroundColor = "#fae1df";
     }
 }
 function colorOnStart(event) {
