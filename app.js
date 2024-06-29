@@ -12,12 +12,12 @@ let gridCount = 16;
 let isDrawing = false;
 function colorOnHighlight(event) {
     if (!isDrawing) {
-        event.target.style.backgroundColor = "white";
+        event.target.style.backgroundColor = "lightgrey";
     }
 }
 function colorOnStart(event) {
     if (!isDrawing) {
-        event.target.style.backgroundColor = "blue";
+        event.target.style.backgroundColor = "white";
     }
 }
 function mouseClick(event) {

@@ -91,7 +91,7 @@ input[type=range]::-moz-range-thumb {
 }
 
 .grid:hover {
-    color: whitesmoke;
+    color: lightgrey;
 }
 
 #container {
