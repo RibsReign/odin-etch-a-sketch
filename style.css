@@ -99,7 +99,7 @@ input[type=range]::-moz-range-thumb {
     flex-wrap: wrap;
     width: 400px;
     height: 400px;
-    border: 1px solid #e4c3ad;
-    background: #c5c3b1;
+    border: 1px solid black;
+    background: #fae1df;
     padding: 10px;
 }
