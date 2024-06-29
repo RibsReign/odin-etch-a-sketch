@@ -1,10 +1,10 @@
-const container = document.querySelector("div");
+const container = document.querySelector("#container");
 
 const sliderText = document.querySelector("p");
 const slider = document.querySelector("input");
 slider.addEventListener("change", () => {
     gridCount = slider.value;
-    sliderText.textContent = `Grid size is ${slider.value}`;
+    sliderText.textContent = `Grid size is: ${slider.value}`;
     makeGrid();
 })
 let gridCount = 16;
