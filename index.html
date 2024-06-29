@@ -11,11 +11,13 @@
 
 <body>
     <div id="menu">
-        <p>Grid size is: 16</p>
-        <input type="range" min="16" max="100" value="16" class="slider" id="myRange">
+        <div id="gridSetting">
+            <p>Grid size is: 16</p>
+            <input type="range" min="16" max="100" value="16" class="slider" id="myRange">
+        </div>
+        <input type="button" value="Clear Canvas" onclick="makeGrid()">
     </div>
-    <div id="container" draggable="false">
-    </div>
+    <div id="container" draggable="false"></div>
 </body>
 
 </html>

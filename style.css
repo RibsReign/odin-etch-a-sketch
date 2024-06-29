@@ -16,17 +16,25 @@ p {
     font-size: 3em;
     color: #fae1df;
     text-align: center;
-    text-shadow: 0 0 5px #e4c3ad,
-        0 0 10px #e4c3ad;
+    text-shadow: 0 0 5px #e4c3ad, 0 0 10px #e4c3ad;
 }
 
-menu {
+#menu {
+    height: 400px;
+    width: 400px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+}
+
+#gridSettings {
+    display: ;
 }
 
 input[type=range] {
-    width: 80%;
+    width: 70%;
     height: 8px;
     border-radius: 5px;
     background: #546a7b;
@@ -34,6 +42,23 @@ input[type=range] {
     outline: none;
     opacity: 0.7;
     transition: opacity 0.2s;
+    padding-left: 100px;
+}
+
+input[type="button"] {
+    padding: 10px;
+    border-radius: 15px;
+    width: 70%;
+    box-sizing: border-box;
+    font-size: 2em;
+    color: #fae1df;
+    text-align: center;
+    background-color: #1b23537a;
+    text-shadow: 0 0 5px #e4c3ad, 0 0 10px #e4c3ad;
+}
+
+input[type="button"]:hover {
+    background: #0d1f2d;
 }
 
 input[type=range]:hover {
@@ -75,6 +100,6 @@ input[type=range]::-moz-range-thumb {
     width: 400px;
     height: 400px;
     border: 1px solid #e4c3ad;
-    background: #9ea3b0;
+    background: #c5c3b1;
     padding: 10px;
 }
